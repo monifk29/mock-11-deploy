@@ -104,3 +104,14 @@ button{
     margin-bottom: 15px;
     font-weight: 500;
 }
+
+button:hover{
+   background-color: white;
+   color: teal;
+   border: 1px solid teal;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: x-large;
+}

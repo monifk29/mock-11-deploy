@@ -92,6 +92,17 @@ button{
     }
 }
 
+button:hover{
+    background-color: white;
+    color: teal;
+    border: 1px solid teal;
+ }
+ 
+ a:hover{
+     text-decoration: underline;
+     font-size: x-large;
+ }
+
 #card:hover{
 
   padding: 5px 10px;
