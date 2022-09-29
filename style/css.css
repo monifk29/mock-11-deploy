@@ -1,0 +1,106 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+#img{
+   width: 85%; 
+   height: 200px;
+   margin-top: 15px;
+}
+
+#card{
+    width: 80%;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+    background-color: teal;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+#pagination{
+    width: 20%;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: teal;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 50px;
+}
+
+#name{
+    background-color: tan;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#lang{
+    font-weight: 700;
+}
+
+#stars{
+    background-color: thistle;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#forks{
+    background-color: thistle;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1150px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+}
+
+#card:hover{
+
+  padding: 5px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+}
